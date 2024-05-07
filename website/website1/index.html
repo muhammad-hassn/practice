@@ -12,14 +12,30 @@
     border-radius: 5px;
     color: whitesmoke;
 }
-
+.reset{
+    background-color: greenyellow;
+    padding: 1pc;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 5vh;
+    font-size: larger;
+}
+#tex{
+    font-size: large;
+    line-height: 4vh;
+}
     </style>
 </head>
 <body>
     <form action="/removepunc" method="get">
         <h1>Welcom to the analize . Enter Your Data</h1>
-        <textarea name="text" id="tex" style="width: 915px; height: 127px;" ></textarea> <br>
+        
+        <textarea name="text" id="tex" style="width: 915px; height: 127px;" required></textarea> <br>
+        
         <button type="submit" class="TEST">ANALYZED TEST</button>
+        
+        <button type="reset" class="reset">reset</button>
         
     </form>
 </body>
