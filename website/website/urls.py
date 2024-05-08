@@ -21,11 +21,9 @@ from . import main
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('' , main.index , name='index'),
-    path('about' , main.about , name='about'),
-    path('removepunc' , main.removepunc , name='removepunc'),
-    path('aboutremover' , main.aboutremover , name='aboutremover'),
-    path('aboutadd' , main.aboutadd , name='aboutadd'),
-    path('aboutsub' , main.aboutsub , name='aboutsub'),
-    
-
+    path('ANALYZED' , main.ANALYZED , name='ANALYZED'),
+    # path('aboutremover' , main.aboutremover , name='aboutremover'),
+    # path('about' , main.about , name='about'),
+    # path('aboutadd' , main.aboutadd , name='aboutadd'),
+    # path('aboutsub' , main.aboutsub , name='aboutsub'),
 ]
